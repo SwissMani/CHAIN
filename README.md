@@ -8,6 +8,7 @@ Zentachain - CHAIN contract with 12 Decimals.
 - [Truffle](https://www.trufflesuite.com)
 - [Infura](https://infura.io/)
 - [Node Js](https://nodejs.org/en) // We are using v11.19.0
+- [Etherscan-API](https://etherscan.io/) // Register to get your API-Key
 - [Docker](https://docs.docker.com/get-docker) // None required optional
 - [Install Openzeppelin](https://github.com/OpenZeppelin/openzeppelin-contracts) // Commandline
 
@@ -48,10 +49,23 @@ $ zentachain.balanceOf(web3.eth.accounts[0])
 $ zentachain.transfer(web3.eth.accounts[1],100,{from:web3.eth.accounts[0]})
 ````
 
+## HdWallet
+Use hdwallet as a provider where a Web3 provider is needed.
+
 Install truffle-hdwallet-provider module:
 
 ````
 npm install truffle-hdwallet-provider
+````
+
+## Truffle-verify
+
+This truffle plugin allows you to automatically verify your smart contracts. Before running verification, make sure that you have actually deployed your contracts to a public network with Truffle.
+
+Install the plugin with:
+
+````
+npm install truffle-verify
 ````
 
 ## License
