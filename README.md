@@ -44,8 +44,14 @@ $ Zentachain.deployed().then(function(instance){ zentachain = instance; }) // Fi
 $ zentachain.symbol()
 $ zentachain.decimals()
 $ zentachain.totalSupply()
-$ zentachain.balanceOf( web3.eth.accounts[0])
+$ zentachain.balanceOf(web3.eth.accounts[0])
 $ zentachain.transfer(web3.eth.accounts[1],100,{from:web3.eth.accounts[0]})
+````
+
+Install truffle-hdwallet-provider module:
+
+````
+npm install truffle-hdwallet-provider
 ````
 
 ## License
