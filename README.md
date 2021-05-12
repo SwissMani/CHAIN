@@ -7,7 +7,7 @@ Zentachain - CHAIN contract with 12 Decimals.
 - [Ganache](https://www.trufflesuite.com/ganache)
 - [Truffle](https://www.trufflesuite.com)
 - [Infura](https://infura.io/)
-- [Installation Openzeppelin](https://github.com/OpenZeppelin/openzeppelin-contracts)
+- [Installa Openzeppelin](https://github.com/OpenZeppelin/openzeppelin-contracts)
 
 ````
 $ npm install @openzeppelin/contracts
