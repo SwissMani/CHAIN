@@ -1,0 +1,17 @@
+{
+  "name": "Zentachain CHAIN",
+  "version": "1.0.0",
+  "description": "Zentachain - CHAIN Token with 12 Decimals.",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Harun Kacemer",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.1.0"
+  }
+}
