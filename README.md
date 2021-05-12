@@ -22,11 +22,9 @@ Install truffle:
 $ npm install -g truffle
 ````
 
-## Truffle console commands:
+## Truffle Console Commands
 
-### Commands:
-
-Compile the CHAIN contract:
+Compile Contract:
 ````
 truffle compile
 ````
@@ -35,13 +33,14 @@ Use the --reset flag to run all migrations from the beginning:
 truffle migrate --reset
 ````
 
-### Console:
+Start Truffle console and interact with the contract instances:
 
 ````
 $ truffle console
 ````
 Interacting with the contract:
 ````
+$ Zentachain.deployed().then(function(instance){ zentachain = instance; }) // First Command to deploy instances
 $ zentachain.symbol()
 $ zentachain.decimals()
 $ zentachain.totalSupply()
