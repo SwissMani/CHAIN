@@ -8,9 +8,9 @@ Zentachain - CHAIN contract with 12 Decimals.
 - [Truffle](https://www.trufflesuite.com)
 - [Infura](https://infura.io/)
 - [Node Js](https://nodejs.org/en) // We are using v11.19.0
-- [Etherscan-API](https://etherscan.io/) // Register to get your API-Key
-- [Docker](https://docs.docker.com/get-docker) // None required optional
-- [Install Openzeppelin](https://github.com/OpenZeppelin/openzeppelin-contracts) // Commandline
+- [Etherscan-API](https://etherscan.io/) // Register to create your API-Key
+- [Docker](https://docs.docker.com/get-docker) // Not required (optional)
+- [Install Openzeppelin](https://github.com/OpenZeppelin/openzeppelin-contracts) // Command Line (CLI)
 
 ````
 $ npm install @openzeppelin/contracts
